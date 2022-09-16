@@ -1,0 +1,190 @@
+.menu-share ul li {
+   padding-top: 20px;
+}
+.menu-bar {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.box-container {
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+.page-faq {
+    background-image: url(https://overworld.qodeinteractive.com/wp-content/uploads/2020/01/faq-background-img-1a.jpg?id=2435);
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.img-page-faq {
+    width: 730px;   
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 26%;
+}
+.panel {
+    width: 580px;
+    background-color: transparent;
+    border: 1px solid blueviolet;
+    color: darkgrey;
+    border-bottom-left-radius: 55px;
+    border-top-right-radius: 55px;
+}
+.panel-default .panel-heading {
+    background-color: transparent;
+}
+.panel-title a {
+    all: unset;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: transparent;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.panel-title a i {
+    float: right;
+}
+.panel-title a:hover i {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.panel-body {
+    border-top-right-radius: 55px;
+}
+.button-page-faq {
+    width: 80%;
+    height: 105px;
+    box-shadow: 3px 3px 5px black,-3px -3px 5px black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.button-page-faq h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.box-button-page-faq {
+    display: flex;
+}
+.box-button-page-faq input {
+    width: 300px;
+    padding: 20px;
+    background-color: #261632;
+    outline: none;
+    border: none;
+    border-bottom-left-radius: 25px;
+    color: white;
+}
+.box-button-page-faq button {
+    padding: 20px 40px;
+    background-color: tomato;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-top-right-radius: 25px;
+}
+.box-button-page-faq button:hover {
+    background-color: blueviolet;
+}
+
+@media only screen and (min-width:768px) and (max-width:1200px) {
+    .img-page-faq {
+        margin-left: 16%;
+    }
+    .box-container {
+       display: flex;
+       flex-wrap: wrap;
+       padding: 100px;
+       justify-content: space-between;
+   }
+   .container {
+       width: 100%;
+   }
+    .button-page-faq {
+        width: 80%;
+        flex-wrap: wrap;
+        height: 175px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 30px;
+    }
+    .button-page-faq h3 {
+        width: 70%;
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+}
+@media only screen and (max-width:768px) {
+     .page-faq {
+         margin-top: 50px;
+         width: 100%;
+         padding-bottom: 0px;
+     }
+     .img-page-faq {
+         width: 70%;   
+         margin-top: 250px;
+         margin-left: 15%;
+     }
+     .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    .container {
+        width: 100%;
+    }
+     .panel {
+         width: 100%;
+     }
+     .button-page-faq {
+         width: 90%;
+         height: max-content;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         align-items: center;
+         padding: 0 30px;
+     }
+     .button-page-faq h3 {
+         color: white;
+         font-size: 20px;
+         font-weight: 700;
+     }
+     .box-button-page-faq {
+         display: flex;
+         flex-wrap: wrap;
+         margin-bottom: 20px;
+     }
+     .box-button-page-faq input {
+         width: 100%;
+         padding: 20px;
+         border-bottom-left-radius: 0px; 
+     }
+     .box-button-page-faq button {
+         width: 100%;
+         padding: 20px 40px;
+        margin-top: 20px;
+     }
+}   

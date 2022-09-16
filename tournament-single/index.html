@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../menu-share/style.css">
+    <link rel="stylesheet" href="../tournament-single/style.css">
+</head>
+<body>
+    <div class="menu-share">
+        <img src="https://overworld.qodeinteractive.com/wp-content/uploads/2020/01/logo-standard-OVERWORLD.png" alt="">
+        <ul>
+            <li><a href="../index.html">home<hr></a>
+                <ul class="multilevel-menu">
+                    <li><a href="../index.html">main home</a></li>
+                    <li><a href="../boosting-home/index.html">boosting home</a></li>
+                </ul>
+            </li>
+            <li><a href="../faq/index.html">pages<hr></a>
+                <ul class="multilevel-menu">
+                    
+                    <li><a href="../coming-soon/index.html">comming soon</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="../tournament-single/index.html">tournament<hr class="self-hr"></a>
+                <ul class="multilevel-menu">
+                    
+                    <li><a href="../match-single/index.html">match single</a></li>
+                    
+                </ul>
+            </li>
+            
+            <li><a href="../shop/index.html">shop<hr></a>
+                </li>
+            <li><a href="../landing/index.html">landing<hr></a></li>
+        </ul>
+        <div class="search-menu-share"><a href="#click-search"><i class="fas fa-search"></i></a></div>
+        <a href="#click-menu" class="menu-bar">
+            <hr class="hr-menu-bar1">
+            <hr class="hr-menu-bar2">
+        </a>
+    </div>
+    <div class="click-search" id="click-search">
+        <a href="#"></a><input type="text" value="" placeholder="SEARCH_"><i class="fas fa-search"></i><hr>        
+    </div>
+    <div class="click-menu" id="click-menu">
+        <a href="#">X</a>
+        <img src="https://overworld.qodeinteractive.com/wp-content/uploads/2020/01/left-menu-OVERWOLD-logo.png" alt="">
+        <div>
+            <img src="https://overworld.qodeinteractive.com/wp-content/uploads/sb-instagram-feed-images/2220424985297017325_27954242445low.jpg" alt="">
+            <img src="https://overworld.qodeinteractive.com/wp-content/uploads/sb-instagram-feed-images/2220424873174679055_27954242445low.jpg" alt="">
+            <img src="https://overworld.qodeinteractive.com/wp-content/uploads/sb-instagram-feed-images/2220424765322412992_27954242445low.jpg" alt="">
+            <img src="https://overworld.qodeinteractive.com/wp-content/uploads/sb-instagram-feed-images/2220424647395313057_27954242445low.jpg" alt="">
+            <img src="https://overworld.qodeinteractive.com/wp-content/uploads/sb-instagram-feed-images/2220424551052128497_27954242445low.jpg" alt="">
+            <img src="https://overworld.qodeinteractive.com/wp-content/uploads/sb-instagram-feed-images/2220424430029844828_27954242445low.jpg" alt="">
+        </div>
+        <span>FOLLOW US ON:</span><i class="fab fa-youtube"></i><i class="fab fa-facebook-square"></i><i class="fab fa-instagram"></i>
+    </div>
+    <!--target-->
+        
+    <div class="menu-reponsive">
+        <img src="https://overworld.qodeinteractive.com/wp-content/uploads/2020/01/logo-standard-OVERWORLD.png" alt="">
+        <label for="id-input-menu"><i class="fas fa-bars"></i><label>
+    </div>
+    <input type="checkbox" id="id-input-menu" class="checkbox1" hidden>
+    <div class="content-menu-reponsive">
+        <ul> 
+            <li><label for="id-input">home<i class="fas fa-plus"></i></label>
+                <input type="checkbox" id="id-input" class="checkbox" hidden>
+                <ul class="multilevel-menu1">
+                    <li><a href="">main home</a></li>
+                    <li><a href="">boosting home</a></li>
+                </ul>
+            </li>
+            <li><label for="id-input1">pages<i class="fas fa-plus"></i></label>
+                <input type="checkbox" id="id-input1" class="checkbox" hidden>
+                <ul class="multilevel-menu1">
+                    <li><a href="">our team</a></li>
+                    <li><a href="">our sponsors</a></li>
+                    <li><a href="">contact us</a></li>
+                    <li><a href="">faq page</a></li>
+                    <li><a href="">comming soon</a></li>
+                    <li><a href="">404 error page</a></li>
+                </ul>
+            </li>
+            <li><label for="id-input2">tournament<i class="fas fa-plus"></i></label>
+                <input type="checkbox" id="id-input2" class="checkbox" hidden>
+                <ul class="multilevel-menu1">
+                    <li><a href="">stream schdule</a></li>
+                    <li><a href="">tournament single</a></li>
+                    <li><a href="">match single</a></li>
+                    <li><a href="">team single</a></li>
+                    <li><a href="">player single</a></li>
+                </ul>
+            </li>
+            <li><label for="id-input3">blog<i class="fas fa-plus"></i></label>
+                <input type="checkbox" id="id-input3" class="checkbox" hidden>
+                <ul class="multilevel-menu1">
+                    <li><a href="">masory list</a></li>
+                    <li><a href="">simple list</a></li>
+                    <li><a href="">standard list</a>
+                    </li>
+                    <li><a href="">post types</a></li>
+                </ul>
+            </li>
+            <li><label for="id-input4">shop<i class="fas fa-plus"></i></label>
+                <input type="checkbox" id="id-input4" class="checkbox" hidden>
+                <ul class="multilevel-menu1">
+                    <li><a href="">product list</a></li>
+                    <li><a href="">product single</a></li>
+                    <li><a href="">list layouts</a></li>
+                    <li><a href="">shop pages</a></li>
+                </ul></li>
+            <li>landing</li>
+        </ul>
+    </div>
+    <!--page-tournament-single-->
+    <div class="page-tournament-single">
+        <div class="header-tournament-single">
+            <img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/tour-img-1.png" alt="">
+            <h2>MADRID OPEN</h2>
+            <div class="content-header-tournament-single">
+                <img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/sponsor-img-1.png" alt="">
+                <h4>
+                    DOTA 2</h4>
+                <span>25TH AUGUST 2020 / 15:00 / MADRID</span>
+                <div class="box-big-content-header-tournament-single">
+                    <div class="box-small-content-header-tournament-single">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>280K</span>
+                        <p>PRIZE POOL</p>
+                    </div>
+                    <div class="box-small-content-header-tournament-single">
+                        <i class="fas fa-gamepad"></i>
+                        <span>5V5</span>
+                        <p>PLAY MODE</p>
+                    </div>
+                    <div class="box-small-content-header-tournament-single">
+                        <i class="fab fa-steam-symbol"></i>
+                        <span>PC</span>
+                        <p>PLATFORM</p>
+                    </div>
+                    <div class="box-small-content-header-tournament-single">
+                        <i class="fas fa-user"></i>
+                        <span>4 GROUPS</span>
+                        <p>PLAYERS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-tournament-single">
+            <h4>ABOUT THE TOURNAMENT</h4>
+            <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>
+            <div class="box-content-tournament-single">
+                <ul class="menu-box-content-tournament-single">
+                    <li>
+                        <a href="#tab-main-info">ALL MATCHES</a>
+                    </li>
+                    <li>
+                        <a href="#tab-image">UPCOMING</a>
+                    </li>
+                    <li>
+                        <a href="#tab-seo">FINISHED</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-item" id="tab-main-info">
+                    <div class="content-noob-dia">
+                      <div class="left-content-noob-dia">
+                          <div class="box-left-content-noob-dia1">
+                              <i class="fas fa-star"></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-2.png" alt="">
+                              <h3>SHURIKEN</h3>
+                          </div>
+                          <div class="box-left-content-noob-dia2">
+                              <span>watch</span>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-twitch"></i>
+                          </div>
+                      </div>
+                      <div class="center-content-noob-dia">
+                          <div class="box-center-content-noob-dia">
+                              <span>9</span>
+                              <span>:</span>
+                              <span>12</span>
+                          </div>
+                          <p>17TH OCTOBER 2019, 19:00</p>
+                      </div>
+                      <div class="left-content-noob-dia">
+                          <div class="box-left-content-noob-dia1">
+                              <h3>DRAGONS</h3></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-1.png" alt="">
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="box-right-content-noob-dia2">
+                              <span>watch</span>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-twitch"></i>
+                          </div>
+                      </div>
+                      <div class="left-content-noob-dia">
+                          <div class="box-left-content-noob-dia1">
+                              <i class="fas fa-star"></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-3.png" alt="">
+                              <h3>RACOONS</h3>
+                          </div>
+                          <div class="box-left-content-noob-dia2">
+                              <span>watch</span>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-twitch"></i>
+                          </div>
+                      </div>
+                      <div class="center-content-noob-dia">
+                          <div class="box-center-content-noob-dia">
+                              <span>11</span>
+                              <span>:</span>
+                              <span>10</span>
+                          </div>
+                          <p>20TH OCTOBER 2019, 21:00</p>
+                      </div>
+                      <div class="left-content-noob-dia">
+                          <div class="box-left-content-noob-dia1">
+                              <h3>ERUDITES</h3></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-4.png" alt="">
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="box-right-content-noob-dia2">
+                              <span>watch</span>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-twitch"></i>
+                          </div>
+                      </div>
+                      <div class="left-content-noob-dia">
+                          <div class="box-left-content-noob-dia1">
+                              <i class="fas fa-star"></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-4.png" alt="">
+                              <h3>ERUDITES</h3>
+                          </div>
+                          <div class="box-left-content-noob-dia2">
+                              <span>watch</span>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-twitch"></i>
+                          </div>
+                      </div>
+                      <div class="center-content-noob-dia">
+                          <div class="box-center-content-noob-dia">
+                              <span>0</span>
+                              <span>:</span>
+                              <span>0</span>
+                          </div>
+                          <p>17TH OCTOBER 2019, 19:00</p>
+                      </div>
+                      <div class="left-content-noob-dia">
+                          <div class="box-left-content-noob-dia1">
+                              <h3>FOX UNIT</h3></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-8.png" alt="">
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="box-right-content-noob-dia2">
+                              <span>watch</span>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-twitch"></i>
+                          </div>
+                      </div>
+                      <div class="left-content-noob-dia">
+                          <div class="box-left-content-noob-dia1">
+                              <i class="fas fa-star"></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-6.png" alt="">
+                              <h3>OGGORILLA</h3>
+                          </div>
+                          <div class="box-left-content-noob-dia2">
+                              <span>watch</span>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-twitch"></i>
+                          </div>
+                      </div>
+                      <div class="center-content-noob-dia">
+                          <div class="box-center-content-noob-dia">
+                              <span>0</span>
+                              <span>:</span>
+                              <span>0</span>
+                          </div>
+                          <p>17TH OCTOBER 2019, 17:00</p>
+                      </div>
+                      <div class="left-content-noob-dia">
+                          <div class="box-left-content-noob-dia1">
+                              <h3>RACOONS</h3></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-3.png" alt="">
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="box-right-content-noob-dia2">
+                              <span>watch</span>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-twitch"></i>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                    <div class="tab-item" id="tab-image">
+                      <div class="content-noob-dia">
+                        <div class="left-content-noob-dia">
+                            <div class="box-left-content-noob-dia1">
+                                <i class="fas fa-star"></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-4.png" alt="">
+                                <h3>ERUDITES</h3>
+                            </div>
+                            <div class="box-left-content-noob-dia2">
+                                <span>watch</span>
+                                <i class="fab fa-youtube"></i>
+                                <i class="fab fa-twitch"></i>
+                            </div>
+                        </div>
+                        <div class="center-content-noob-dia">
+                            <div class="box-center-content-noob-dia">
+                                <span>0</span>
+                                <span>:</span>
+                                <span>0</span>
+                            </div>
+                            <p>17TH OCTOBER 2019, 19:00</p>
+                        </div>
+                        <div class="left-content-noob-dia">
+                            <div class="box-left-content-noob-dia1">
+                                <h3>FOX UNIT</h3></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-8.png" alt="">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="box-right-content-noob-dia2">
+                                <span>watch</span>
+                                <i class="fab fa-youtube"></i>
+                                <i class="fab fa-twitch"></i>
+                            </div>
+                        </div>
+                        <div class="left-content-noob-dia">
+                            <div class="box-left-content-noob-dia1">
+                                <i class="fas fa-star"></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-4.png" alt="">
+                                <h3>ERUDITES</h3>
+                            </div>
+                            <div class="box-left-content-noob-dia2">
+                                <span>watch</span>
+                                <i class="fab fa-youtube"></i>
+                                <i class="fab fa-twitch"></i>
+                            </div>
+                        </div>
+                        <div class="center-content-noob-dia">
+                            <div class="box-center-content-noob-dia">
+                                <span>0</span>
+                                <span>:</span>
+                                <span>0</span>
+                            </div>
+                            <p>20TH OCTOBER 2019, 21:00</p>
+                        </div>
+                        <div class="left-content-noob-dia">
+                            <div class="box-left-content-noob-dia1">
+                                <h3>FOX UNIT</h3></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-8.png" alt="">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="box-right-content-noob-dia2">
+                                <span>watch</span>
+                                <i class="fab fa-youtube"></i>
+                                <i class="fab fa-twitch"></i>
+                            </div>
+                        </div>
+                        <div class="left-content-noob-dia">
+                            <div class="box-left-content-noob-dia1">
+                                <i class="fas fa-star"></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-6.png" alt="">
+                                <h3>OGGORILLA</h3>
+                            </div>
+                            <div class="box-left-content-noob-dia2">
+                                <span>watch</span>
+                                <i class="fab fa-youtube"></i>
+                                <i class="fab fa-twitch"></i>
+                            </div>
+                        </div>
+                        <div class="center-content-noob-dia">
+                            <div class="box-center-content-noob-dia">
+                                <span>0</span>
+                                <span>:</span>
+                                <span>0</span>
+                            </div>
+                            <p>17TH OCTOBER 2019, 19:00</p>
+                        </div>
+                        <div class="left-content-noob-dia">
+                            <div class="box-left-content-noob-dia1">
+                                <h3>RACOONS</h3></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-3.png" alt="">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="box-right-content-noob-dia2">
+                                <span>watch</span>
+                                <i class="fab fa-youtube"></i>
+                                <i class="fab fa-twitch"></i>
+                            </div>
+                        </div>
+                        <div class="left-content-noob-dia">
+                            <div class="box-left-content-noob-dia1">
+                                <i class="fas fa-star"></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-5.png" alt="">
+                                <h3>GULDAN BOI</h3>
+                            </div>
+                            <div class="box-left-content-noob-dia2">
+                                <span>watch</span>
+                                <i class="fab fa-youtube"></i>
+                                <i class="fab fa-twitch"></i>
+                            </div>
+                        </div>
+                        <div class="center-content-noob-dia">
+                            <div class="box-center-content-noob-dia">
+                                <span>0</span>
+                                <span>:</span>
+                                <span>0</span>
+                            </div>
+                            <p>17TH OCTOBER 2019, 17:00</p>
+                        </div>
+                        <div class="left-content-noob-dia">
+                            <div class="box-left-content-noob-dia1">
+                                <h3>SHURIKEN</h3></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-2.png" alt="">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="box-right-content-noob-dia2">
+                                <span>watch</span>
+                                <i class="fab fa-youtube"></i>
+                                <i class="fab fa-twitch"></i>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="tab-item" id="tab-seo">
+                      <div class="content-noob-dia">
+                      <div class="left-content-noob-dia">
+                          <div class="box-left-content-noob-dia1">
+                              <i class="fas fa-star"></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-2.png" alt="">
+                              <h3>SHURIKEN</h3>
+                          </div>
+                          <div class="box-left-content-noob-dia2">
+                              <span>watch</span>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-twitch"></i>
+                          </div>
+                      </div>
+                      <div class="center-content-noob-dia">
+                          <div class="box-center-content-noob-dia">
+                              <span>9</span>
+                              <span>:</span>
+                              <span>12</span>
+                          </div>
+                          <p>17TH OCTOBER 2019, 19:00</p>
+                      </div>
+                      <div class="left-content-noob-dia">
+                          <div class="box-left-content-noob-dia1">
+                              <h3>DRAGONS</h3></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-1.png" alt="">
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="box-right-content-noob-dia2">
+                              <span>watch</span>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-twitch"></i>
+                          </div>
+                      </div>
+                      <div class="left-content-noob-dia">
+                          <div class="box-left-content-noob-dia1">
+                              <i class="fas fa-star"></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-3.png" alt="">
+                              <h3>RACOONS</h3>
+                          </div>
+                          <div class="box-left-content-noob-dia2">
+                              <span>watch</span>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-twitch"></i>
+                          </div>
+                      </div>
+                      <div class="center-content-noob-dia">
+                          <div class="box-center-content-noob-dia">
+                              <span>11</span>
+                              <span>:</span>
+                              <span>10</span>
+                          </div>
+                          <p>20TH OCTOBER 2019, 21:00</p>
+                      </div>
+                      <div class="left-content-noob-dia">
+                          <div class="box-left-content-noob-dia1">
+                              <h3>ERUDITES</h3></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-4.png" alt="">
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="box-right-content-noob-dia2">
+                              <span>watch</span>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-twitch"></i>
+                          </div>
+                      </div>
+                      <div class="left-content-noob-dia">
+                          <div class="box-left-content-noob-dia1">
+                              <i class="fas fa-star"></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-5.png" alt="">
+                              <h3>GULDAN BOI</h3>
+                          </div>
+                          <div class="box-left-content-noob-dia2">
+                              <span>watch</span>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-twitch"></i>
+                          </div>
+                      </div>
+                      <div class="center-content-noob-dia">
+                          <div class="box-center-content-noob-dia">
+                              <span>0</span>
+                              <span>:</span>
+                              <span>0</span>
+                          </div>
+                          <p>17TH OCTOBER 2019, 19:00</p>
+                      </div>
+                      <div class="left-content-noob-dia">
+                          <div class="box-left-content-noob-dia1">
+                              <h3>OGGORILLA</h3></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-6.png" alt="">
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="box-right-content-noob-dia2">
+                              <span>watch</span>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-twitch"></i>
+                          </div>
+                      </div>
+                      <div class="left-content-noob-dia">
+                          <div class="box-left-content-noob-dia1">
+                              <i class="fas fa-star"></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-7.png" alt="">
+                              <h3>KNIGHTSOULS</h3>
+                          </div>
+                          <div class="box-left-content-noob-dia2">
+                              <span>watch</span>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-twitch"></i>
+                          </div>
+                      </div>
+                      <div class="center-content-noob-dia">
+                          <div class="box-center-content-noob-dia">
+                              <span>0</span>
+                              <span>:</span>
+                              <span>0</span>
+                          </div>
+                          <p>17TH OCTOBER 2019, 17:00</p>
+                      </div>
+                      <div class="left-content-noob-dia">
+                          <div class="box-left-content-noob-dia1">
+                              <h3>FOX UNIT</h3></i><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-8.png" alt="">
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="box-right-content-noob-dia2">
+                              <span>watch</span>
+                              <i class="fab fa-youtube"></i>
+                              <i class="fab fa-twitch"></i>
+                          </div>
+                      </div>
+                  </div>
+                    </div>
+                </div>
+            </div>
+            <!--meet-the-teams-->
+            <div class="meet-the-teams">
+                <h4>MEET THE TEAMS</h4>
+                <div class="content-meet-the-teams">
+                    <div class="box-content-meet-the-teams">
+                        <span>dota 2</span>
+                        <img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-2.png" alt="">
+                        <h4>SHURIKEN</h4>
+                        <i class="fab fa-twitter-square"></i><i class="fab fa-twitch"></i><i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="box-content-meet-the-teams">
+                        <span>dota 2</span>
+                        <img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-1.png" alt="">
+                        <h4>DRAGONS</h4>
+                        <i class="fab fa-twitter-square"></i><i class="fab fa-twitch"></i><i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="box-content-meet-the-teams">
+                        <span>dota 2</span>
+                        <img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-3.png" alt="">
+                        <h4>RACOONS</h4>
+                        <i class="fab fa-twitter-square"></i><i class="fab fa-twitch"></i><i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="box-content-meet-the-teams">
+                        <span>dota 2</span>
+                        <img src="https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-img-8.png" alt="">
+                        <h4>ERUDITES</h4>
+                        <i class="fab fa-twitter-square"></i><i class="fab fa-twitch"></i><i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end-page">
+            <span>MADE BY QODE INTERACTIVE</span>
+            <span>ALL RIGHTS RESERVED 2020</span>
+        </div>
+    </div>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAd1ySPuAX1WVqvETHWhEEAGAJ6aYnCM7U",
+          authDomain: "landingpage-4ae75.firebaseapp.com",
+          projectId: "landingpage-4ae75",
+          storageBucket: "landingpage-4ae75.appspot.com",
+          messagingSenderId: "737918608636",
+          appId: "1:737918608636:web:ae35b5674066c5423e6379",
+          measurementId: "G-N9QJTD9JLK"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+<script src="../tournament-single/index.js"></script>
+</html>

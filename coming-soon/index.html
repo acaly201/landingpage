@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../coming-soon/style.css">
+    <link rel="stylesheet" href="../menu-share/style.css">
+</head>
+<body>
+    <div class="page-coming-soon">
+        <a href="../index.html"><img src="https://overworld.qodeinteractive.com/wp-content/uploads/2020/01/logo-standard-OVERWORLD.png" alt=""></a>
+        <div class="time-coming-soon">
+            <div id="days"></div>
+            <span>:</span>
+            <div id="hour"></div>
+            <span>:</span>
+            <div id="minutes"></div>
+            <span>:</span>
+            <div id="seconds"></div>
+        </div>
+    </div>
+    <!--target-->
+        
+    <div class="menu-reponsive">
+        <img src="https://overworld.qodeinteractive.com/wp-content/uploads/2020/01/logo-standard-OVERWORLD.png" alt="">
+        <label for="id-input-menu"><i class="fas fa-bars"></i><label>
+    </div>
+    <input type="checkbox" id="id-input-menu" class="checkbox1" hidden>
+    <div class="content-menu-reponsive">
+        <ul> 
+            <li><label for="id-input">home<i class="fas fa-plus"></i></label>
+                <input type="checkbox" id="id-input" class="checkbox" hidden>
+                <ul class="multilevel-menu1">
+                    <li><a href="">main home</a></li>
+                    <li><a href="">boosting home</a></li>
+                </ul>
+            </li>
+            <li><label for="id-input1">pages<i class="fas fa-plus"></i></label>
+                <input type="checkbox" id="id-input1" class="checkbox" hidden>
+                <ul class="multilevel-menu1">
+                    <li><a href="">our team</a></li>
+                    <li><a href="">our sponsors</a></li>
+                    <li><a href="">contact us</a></li>
+                    <li><a href="">faq page</a></li>
+                    <li><a href="">comming soon</a></li>
+                    <li><a href="">404 error page</a></li>
+                </ul>
+            </li>
+            <li><label for="id-input2">tournament<i class="fas fa-plus"></i></label>
+                <input type="checkbox" id="id-input2" class="checkbox" hidden>
+                <ul class="multilevel-menu1">
+                    <li><a href="">stream schdule</a></li>
+                    <li><a href="">tournament single</a></li>
+                    <li><a href="">match single</a></li>
+                    <li><a href="">team single</a></li>
+                    <li><a href="">player single</a></li>
+                </ul>
+            </li>
+            <li><label for="id-input3">blog<i class="fas fa-plus"></i></label>
+                <input type="checkbox" id="id-input3" class="checkbox" hidden>
+                <ul class="multilevel-menu1">
+                    <li><a href="">masory list</a></li>
+                    <li><a href="">simple list</a></li>
+                    <li><a href="">standard list</a>
+                    </li>
+                    <li><a href="">post types</a></li>
+                </ul>
+            </li>
+            <li><label for="id-input4">shop<i class="fas fa-plus"></i></label>
+                <input type="checkbox" id="id-input4" class="checkbox" hidden>
+                <ul class="multilevel-menu1">
+                    <li><a href="">product list</a></li>
+                    <li><a href="">product single</a></li>
+                    <li><a href="">list layouts</a></li>
+                    <li><a href="">shop pages</a></li>
+                </ul></li>
+            <li>landing</li>
+        </ul>
+    </div>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAd1ySPuAX1WVqvETHWhEEAGAJ6aYnCM7U",
+          authDomain: "landingpage-4ae75.firebaseapp.com",
+          projectId: "landingpage-4ae75",
+          storageBucket: "landingpage-4ae75.appspot.com",
+          messagingSenderId: "737918608636",
+          appId: "1:737918608636:web:ae35b5674066c5423e6379",
+          measurementId: "G-N9QJTD9JLK"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+    <script src="../coming-soon/index.js"></script>
+</html>

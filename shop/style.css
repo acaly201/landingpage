@@ -1,0 +1,182 @@
+.page-shop {
+    width: 100%;
+    height: 100%;
+    padding: 120px 130px;
+    background-color: #1b0f23;
+}
+.img-page-shop {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/match-img-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.img-page-shop h2 {
+    font-size: 140px;
+    color: white;
+}
+.menu-search {
+    width: 100%;
+}
+.menu-search label {
+    width: 270px;
+    height: 50px;
+    float: right;
+    margin-bottom: 50px;
+}
+.menu-search input {
+    width: 270px;
+    height: 50px;
+    padding-left: 10px;
+    background-color: #22152c;
+    color: darkgray;
+    float: right;
+    border: none;
+    outline: none;
+}
+.content-page {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.list_products {
+    width: 900px;
+    height: 100%;   
+    display: flex;
+    flex-wrap: wrap;
+}
+.list_item {
+    width: 30%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    margin-left: 3%;
+}
+.list_item img {
+    width: 100%;
+    height: 275px;
+}
+.content-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.title {
+    font-size: 20px;
+}
+.content-price {
+    font-size: 25px;
+}
+.addresss {
+    color: blueviolet;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+.list-button {
+    width: 22%;
+    padding: 20px;
+    height: max-content;
+    background-color: #22152c;
+    box-shadow: 1px 1px 15px black,-1px -1px 15px black;
+}
+.click-button {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content-page .list-button img {
+    width: 100%;
+}
+.active-list-button {
+    color: blueviolet;
+    padding-left: 15px;
+    border-left: 3px solid blueviolet;
+}
+.click-button:hover {
+    color: blueviolet;
+}
+.list_item img {
+    box-shadow: 1px 1px 15px black,-1px -1px 15px black;
+    margin-bottom: 20px;
+}
+@media only screen and (min-width:768px) and (max-width:1200px) {
+    
+    .content-page {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .list_products {
+        width: 100%;
+    }
+    .list-button {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .click-button {
+        width: 30%;
+    }
+    .content-page .list-button img {
+        width: 100%;
+        display: none;
+    }
+}
+@media only screen and (max-width:768px) {
+    .page-shop {
+        padding: 120px 30px;
+    }
+    .img-page-shop h2 {
+        font-size: 50px;
+    }
+    .menu-search {
+        width: 100%;
+    }
+    .menu-search label {
+        width: 100%;
+    }
+    .menu-search input {
+        width: 100%;
+    }
+    .content-page {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .list_products {
+        width: 100%;
+    }
+    .list_item {
+        width: 100%;
+    }
+    .list-button {
+        width: 100%;
+    }
+    .click-button {
+        width: 100%;
+    }
+    .content-page .list-button img {
+        width: 100%;
+        display: none;
+    }
+}

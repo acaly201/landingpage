@@ -1,0 +1,450 @@
+.page-tournament-single {
+    width: 100%;
+    height: 100%;
+    margin-top: 120px;
+}
+.header-tournament-single {
+    background-image: url(https://overworld.qodeinteractive.com/wp-content/uploads/2019/10/team-title-img.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    text-align: center;
+}
+.header-tournament-single>img {
+    width: 210px;
+    margin-top: 10%;
+}
+.header-tournament-single h2 {
+    color: white;
+    font-size: 45px;
+}
+.content-header-tournament-single {
+    width: 80%;
+    display: flex;
+    height: 110px;
+    background-color: #20132a;
+    box-shadow: 3px 3px 5px black,-3px -3px 5px black;
+    margin: auto;
+    margin-top: 190px;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.content-header-tournament-single>img {
+    width: 30px;
+    height: 50%;
+}
+.content-header-tournament-single h4 {
+    color: white;
+    font-size: 30px;
+}
+.content-header-tournament-single>span {
+    color: blueviolet;
+    font-size: 12px;
+}
+.box-big-content-header-tournament-single {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+.box-big-content-header-tournament-single i {
+    color: blueviolet;
+}
+.box-big-content-header-tournament-single span {
+    color: white;
+    font-weight: 700;
+}
+.box-big-content-header-tournament-single p {
+    color: blueviolet;
+    font-size: 12px;
+    margin-top: 3px;
+}
+@media only screen and (min-width:768px) and (max-width:1200px) {
+    .content-header-tournament-single {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        height: max-content;
+        padding: 20px 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .content-header-tournament-single>img {
+        width: 30px;
+        height: 50%;
+    }
+    .content-header-tournament-single h4 {
+        color: white;
+        font-size: 30px;
+    }
+    .content-header-tournament-single>span {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .box-big-content-header-tournament-single {
+        width: 70%;
+    }
+}
+@media only screen and (max-width:768px) {
+    .page-tournament-single {
+        margin-top: 70px;
+    }
+    .header-tournament-single {
+        height: 500px;
+    }
+    .header-tournament-single>img {
+        width: 210px;
+        margin-top: 10%;
+    }
+    .content-header-tournament-single {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        height: max-content;
+        padding: 20px 30px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .content-header-tournament-single>img {
+        width: 30px;
+        height: 50%;
+    }
+    .content-header-tournament-single h4 {
+        color: white;
+        font-size: 30px;
+    }
+    .content-header-tournament-single>span {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .box-big-content-header-tournament-single {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .box-small-content-header-tournament-single {
+        width: 48%;
+        margin-bottom: 10px;
+    }
+}
+/*-----------content-tournament-single------*/
+.content-tournament-single {
+    background-color: #20132a;
+    padding: 100px 130px;
+}
+.content-tournament-single h4 {
+    color: white;
+    font-size: 35px;
+}
+.content-tournament-single > p {
+    color: darkgrey;
+    font-size: 15px;
+    max-width: 50%;
+    margin-top: 20px;
+}
+.box-content-tournament-single {
+    width: 100%;
+    margin-top: 50px;
+}
+.menu-box-content-tournament-single {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+.box-content-tournament-single ul li{
+    padding: 10px 0;
+    margin-left: 50px;
+}
+.box-content-tournament-single ul .active{
+    border-top: 4px solid blueviolet;
+}
+.box-content-tournament-single ul .active a{
+    color: white;
+}
+.box-content-tournament-single ul li a{
+    color: blueviolet;
+    text-transform: uppercase;
+}
+.tab-content{
+    padding: 20px 0px;
+}
+.tab-item{
+    display: none;
+}
+.content-noob-dia {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.left-content-noob-dia {
+    width: 37%;
+    margin-bottom: 40px;
+}
+.box-left-content-noob-dia1 {
+    width: 100%;
+    display: flex;
+    height: 63px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-top-right-radius: 25px;
+   border-bottom-left-radius: 25px;
+   position: relative;
+}
+.box-left-content-noob-dia1::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    background-color: #6b54b6;
+    opacity: 0.2;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.box-left-content-noob-dia1 img {
+    height: 155px;
+    position: relative;
+    z-index: 3;
+}
+.box-left-content-noob-dia1 i,h3 {
+    position: relative;
+    z-index: 3;
+}
+.box-left-content-noob-dia1 i {
+    color: tomato;
+}
+.box-left-content-noob-dia1 h3 {
+    color: white;
+    font-weight: 700;
+}
+.box-left-content-noob-dia2 {
+    float: right;
+    margin-top: 10px;
+    padding-right: 25px;
+}
+.box-left-content-noob-dia2 span {
+    color: #6b54b6;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+}
+.box-left-content-noob-dia2 i {
+    color: white;
+    margin-left: 15px;
+}
+.box-right-content-noob-dia2 {
+    float: left;
+    margin-top: 10px;
+    padding-left: 25px;
+}
+.box-right-content-noob-dia2 span {
+    color: #6b54b6;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+}
+.box-right-content-noob-dia2 i {
+    color: white;
+    margin-left: 15px;
+}
+.center-content-noob-dia {
+    width: 15%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.box-center-content-noob-dia {
+    display: flex;
+    justify-content: space-between;
+}
+.box-center-content-noob-dia span {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+.center-content-noob-dia p {
+    color: #6b54b6;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 800;
+}
+@media only screen and (min-width:768px) and (max-width:1200px) {
+    
+    .content-tournament-single > p {
+        max-width: 90%;
+    }
+    .tab-content{
+        padding: 20px 0px;
+    }
+    .tab-item{
+        display: none;
+    }
+    .content-noob-dia {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+    .left-content-noob-dia {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .center-content-noob-dia {
+        width: 30%;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: -100px;
+    }
+    .box-center-content-noob-dia {
+        display: flex;
+        justify-content: space-between;
+    }
+    .box-center-content-noob-dia span {
+        color: white;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .center-content-noob-dia p {
+        color: #6b54b6;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: 800;
+    }
+}
+@media only screen and (max-width:768px) {
+    .content-tournament-single {
+        background-color: #20132a;
+        padding: 100px 30px;
+    }
+    .content-tournament-single > p {
+        max-width: 100%;
+    }
+    .menu-box-content-tournament-single {
+        display: block;
+        justify-content: center;
+        border-bottom: 1px solid black;
+    }
+    .menu-box-content-tournament-single li{
+        text-align: center;
+    }
+    .box-content-tournament-single ul li{
+        padding: 10px 0;
+        margin-left: 0px;
+    }
+    .tab-content{
+        padding: 20px 0px;
+    }
+    .tab-item{
+        display: none;
+    }
+    .content-noob-dia {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+    .left-content-noob-dia {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .center-content-noob-dia {
+        width: 80%;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: -100px;
+    }
+    .box-center-content-noob-dia {
+        display: flex;
+        justify-content: space-between;
+    }
+    .box-center-content-noob-dia span {
+        color: white;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .center-content-noob-dia p {
+        color: #6b54b6;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: 800;
+    }
+    .box-left-content-noob-dia1 img {
+        height: 100px;
+    }
+    .box-left-content-noob-dia1 h3 {
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+/*--------meet-the-teams------------*/
+.meet-the-teams {
+  width: 100%;
+}
+.meet-the-teams>h4 {
+    color: white;
+    font-size: 35px;
+}
+.content-meet-the-teams {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box-content-meet-the-teams {
+    width: 23%;
+    height: 320px;
+    background-color: transparent;
+    box-shadow: 3px 3px 5px black,-3px -3px 5px black;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+.box-content-meet-the-teams span {
+    color: blueviolet;
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.box-content-meet-the-teams img {
+    width: 50%;
+}
+.box-content-meet-the-teams h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+.box-content-meet-the-teams i {
+    color: white;
+    margin-right: 10px;
+}
+.box-content-meet-the-teams:hover {
+    margin-top: 30px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+@media only screen and (max-width:768px) {
+      .content-meet-the-teams {
+          flex-wrap: wrap;
+      }
+      .box-content-meet-the-teams {
+          width: 100%;
+      }
+}
+
+
+
